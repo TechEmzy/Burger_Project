@@ -1,0 +1,27 @@
+# .gitignore
+# Ignore vendor folder
+/vendor/
+
+# Ignore Composer's lock file
+/composer.lock
+
+# Ignore any logs or temporary files
+/log/
+/tmp/
+
+# Ignore environment configuration files
+/.env
+
+# Ignore user-specific files
+/.idea/
+/.vscode/
+
+# Ignore any local configuration files
+/config/local/*.php
+
+# Ignore built assets
+/public/assets/
+
+# Ignore server-specific files
+/.htaccess
+/nginx.conf
